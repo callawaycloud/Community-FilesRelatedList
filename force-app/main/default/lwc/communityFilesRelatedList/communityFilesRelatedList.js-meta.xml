@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>52.0</apiVersion>
+    <isExposed>true</isExposed>
+    <masterLabel>Files Related List</masterLabel>
+    <description>Display related records of the current record.</description>
+    <targets>
+        <target>lightningCommunity__Page</target>
+        <target>lightningCommunity__Default</target>
+    </targets>
+    <targetConfigs>
+        <targetConfig targets="lightningCommunity__Default">
+            <property
+                name="recordId"
+                label="RecordId"
+                type="String"
+                placeholder="{!recordId}"
+                description="The Id of the current record being viewed."
+                required="true"
+            />
+            <property
+                name="allowUploadingFiles"
+                label="Can Upload Files"
+                type="Boolean"
+                default="false"
+                description="Determines if we let the user upload files."
+            />
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>

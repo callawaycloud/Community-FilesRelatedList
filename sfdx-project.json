@@ -1,0 +1,19 @@
+{
+    "packageDirectories": [
+        {
+            "path": "force-app",
+            "default": true,
+            "package": "Community_FilesRelatedList",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT"
+        }
+    ],
+    "name": "communityFiles",
+    "namespace": "",
+    "sfdcLoginUrl": "https://login.salesforce.com",
+    "sourceApiVersion": "52.0",
+    "packageAliases": {
+        "Community_FilesRelatedList": "0Ho5e00000000emCAA",
+        "Community_FilesRelatedList@0.1.0-1": "04t5e000000aOQrAAM"
+    }
+}
