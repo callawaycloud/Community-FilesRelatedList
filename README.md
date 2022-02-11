@@ -10,10 +10,10 @@ This component could be dropped anywhere in a Salesforce community to show files
 ## 📦 Install
 
 **via sfdx-cli**
-`sfdx force:package:install --package 0Ho5e00000000emCAA -u your@org.user`
+`sfdx force:package:install --package 04t5e000000aOQrAAM -u your@org.user`
 
 **via url**
-login and navigate to [`/packaging/installPackage.apexp?p0=0Ho5e00000000emCAA`](https://login.salesforce.com/packaging/installPackage.apexp?p0=0Ho5e00000000emCAA). Choose `Install for: Admin Only`.
+login and navigate to [`/packaging/installPackage.apexp?p0=04t5e000000aOQrAAM`](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t5e000000aOQrAAM). Choose `Install for: Admin Only`.
 
 ## 🔨 Usage
 
